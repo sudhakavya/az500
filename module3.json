@@ -1,0 +1,28 @@
+[
+  {
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "Parameter": [
+      {
+        "Name": "max-cpu-cores",
+        "Value": "8"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Sql/servers/databases",
+    "Parameter": [
+      {
+        "Name": "max-DW",
+        "Value": "200"
+      },
+      {
+        "Name": "max-DTU",
+        "Value": "900"
+      },
+      {
+        "Name": "max-VCores",
+        "Value": "9"
+      }
+    ]
+  }
+]
